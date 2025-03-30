@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "eg_uniform_fix",
+	"version": "${version}",
+	"name": "1.21.5 Uniform Fix",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/eg_uniform_fix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+	},
+	"mixins": [
+		"eg_uniform_fix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
